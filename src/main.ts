@@ -29,3 +29,14 @@ async function bootstrap() {
   await app.listen(process.env.API_PORT || 5000);
 }
 bootstrap();
+
+/* 
+MYSQL_ROOT_PASSWORD=admin
+MYSQL_USER=user
+MYSQL_PASSWORD=12345
+MYSQL_PORT=3306
+API_PORT=3000
+MYSQL_HOST=localhost
+MYSQL_DATABASE=products_db
+PORT=3306
+*/
