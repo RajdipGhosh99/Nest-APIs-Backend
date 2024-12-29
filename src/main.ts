@@ -39,4 +39,5 @@ API_PORT=3000
 MYSQL_HOST=localhost
 MYSQL_DATABASE=products_db
 PORT=3306
+
 */
